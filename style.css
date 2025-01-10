@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:  #1D1616;
+    color: #f7f7f8;
+    line-height: 1.5;
+}
+.container
+{
+    display: flex;
+    height: 100vh;
+}
+
+.side-bar
+{
+    background-color:whitesmoke;
+    padding: 45px;
+    border-right: 1px solid black;
+}
+.profile
+{
+    padding: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.profile h2{
+    color: #11f401;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.profile p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f107;
+}
+.nav-bar
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-bar a{
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(12, 12, 12);
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 5px;
+}
+.nav-bar a:hover
+{
+    background-color:aqua;
+    color: black;
+    transition: 0.7s ease;
+}
+.main-cont
+{
+    padding:40px;
+    flex: 1;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.search-bar
+{
+    display: flex;
+    gap: 10px;
+}
+.search-bar input
+{
+    width: 300px;
+    border-radius: 80px;
+    padding: 10px 15px;
+    border: 2px solid green;
+}
+.search-bar img{
+    height: 30px;
+    width: 30px;
+}
+.but-icon
+{
+    background-color: rgb(9, 5, 245);
+    border-radius:30px; 
+}
+.but-icon:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.social
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+}
+.social img
+{
+    height: 50px;
+    width: 50px;
+}
+.stats
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.stats-card
+{
+    background-color: #6439FF;
+    width: 25%;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+.stats-card:hover
+{
+    transform: translateY(-5px);
+}
+.stats-card h3{
+    color: white;
+    margin-bottom: 8px;
+}
+.skill section{
+    background-color: #111515;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.stats-card p{
+    color: #0b0b0b;
+    font-size: 16px;
+}
+.skill section h2
+{
+    margin-bottom: 20px;
+}
+.skill-div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+progress
+{
+    width:100% ;
+    height: 7px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+progress::-webkit-progress-value {
+    background-color: #3cff00; /* Filled color */
+    border-radius: 10px;
+  }
+.project-design
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+   margin-top: 20px;
+}
+.project-section h2{
+    margin-top: 15px;
+}
+.project-card {
+    background-color:#00CCDD;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.project-card h3{
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.project-card p{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 15px;
+ }
+
+ .footer{
+     display: flex;
+     justify-content: space-between;
+    align-items: center;
+ }
+
+ .status
+    {
+        background-color: #0088dd;
+        padding: 2px 10px;
+        border-radius: 20px;
+        font-weight: 700;
+    }
+
+    .status#completed{
+        background-color: #3cff00;
+        color: black;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+      
+        gap: 20px;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 700px;
+        /* border: 2px solid red; */
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #f69f08;
+        color: black;
+        font-weight: 700;
+    }
+
+    .btn:hover
+    {
+        cursor: pointer;
+    }
+    .date
+    {
+        background-color: #3004f6;
+        padding: 2px 10px;
+        border-radius: 20px;
+        font-weight: 700;
+        justify-content: space-between;
+    }
